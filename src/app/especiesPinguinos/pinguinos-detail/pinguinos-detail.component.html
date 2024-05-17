@@ -1,0 +1,30 @@
+<div class="container-fluid">
+  <p class="h3 p-3">{{ pinguinosDetail.name }}</p>
+  <div class="row">
+    <div class="col-2">
+      <div class="thumb">
+        <img
+          class="img-fluid"
+          src="{{ pinguinosDetail.name }}"
+          alt="{{ pinguinosDetail.name }}"
+        />
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+          <div class="card p-2" style="width: 15rem; height: 33rem">
+            <img
+              class="card-img-top"
+              src="{{ pinguinosDetail.name }}"
+              alt="{{ pinguinosDetail.image }}"
+            />
+            <div class="card-body">
+              <h5 class="card-title">{{ pinguinosDetail.image }}</h5>
+              <p class="card-text">[{{ pinguinosDetail.name }}]</p>
+              <p class="card-text">[{{ pinguinosDetail.description }}]</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
